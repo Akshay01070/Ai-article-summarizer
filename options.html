@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>extention options</title>
-     <style>
+<html>
+  <head>
+    <title>AI Summary Settings</title>
+    <style>
       body {
         font-family: Arial, sans-serif;
         padding: 20px;
@@ -46,23 +44,26 @@
         display: none;
       }
     </style>
-</head>
-<body>
-    <h1> AI Summary Settings</h1>
+  </head>
+  <body>
+    <h1>AI Summary Settings</h1>
 
     <div class="form-group">
-        <label for="api-key"> Gemini API Key</label>
-        <input type="text" id="api-key" placeholder="Enter your Gemini Api key">
-
-        <p>
-            you can get an API key from 
-            <a href="https://aistudio.google.com/app/apikey" target="_blank"> Google AI Studio</a>
-        </p>
-
+      <label for="api-key">Gemini API Key:</label>
+      <input type="text" id="api-key" placeholder="Enter your Gemini API key" />
+      <p>
+        You can get an API key from
+        <a href="https://makersuite.google.com/app/apikey" target="_blank"
+          >Google AI Studio</a
+        >
+      </p>
     </div>
-    <button id="save-button" > Save Settings</button>
-    <p id="success-message" class="success-message"> Settings saved successsfully</p>
 
-<script src="options.js"></script>
-</body>
-</html> 
+    <button id="save-button">Save Settings</button>
+    <p id="success-message" class="success-message">
+      Settings saved successfully!
+    </p>
+
+    <script src="option.js"></script>
+  </body>
+</html>

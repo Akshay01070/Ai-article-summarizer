@@ -3,7 +3,7 @@
     "name": "Ai Summary for Articles",
     "version": "1.0",
 
-    "permissions":["scripting","activeTab", "storage"],
+    "permissions":["scripting","activeTab", "storage", "tabs"],
 
     "action":{
         "default_popup": "popup.html",
